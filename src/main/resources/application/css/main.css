@@ -1,0 +1,12 @@
+.AnchorPane {
+  -fx-background-color: #44D3DC;
+}
+
+#startbutton {
+  -fx-background-color: #F0E819;
+  -fx-color: white;
+}
+#startbutton:hover {
+  -fx-background-color: #dbd513;
+  -fx-color: white;
+}

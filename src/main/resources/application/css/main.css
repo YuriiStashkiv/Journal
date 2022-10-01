@@ -1,12 +1,12 @@
-.AnchorPane {
-  -fx-background-color: #44D3DC;
-}
-
-#startbutton {
+.button {
   -fx-background-color: #F0E819;
-  -fx-color: white;
 }
-#startbutton:hover {
-  -fx-background-color: #dbd513;
-  -fx-color: white;
+.button:hover {
+  -fx-background-color: #fff820;
+}
+.search_bar {
+  -fx-background-color: #94DADE;
+}
+.allPanes {
+  -fx-background-color: #44D3DC;
 }

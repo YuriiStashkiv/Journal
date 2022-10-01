@@ -9,7 +9,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="allPanes" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.journal.SceneController">
    <children>
       <Group layoutY="-1.0">
          <children>
@@ -18,7 +18,7 @@
                   <Font name="Arial Bold" size="50.0" />
                </font>
             </Text>
-            <Button fx:id="startbutton" alignment="CENTER" layoutX="220.0" layoutY="216.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="160.0" text="Почати">
+            <Button fx:id="startbutton" alignment="CENTER" layoutX="220.0" layoutY="216.0" mnemonicParsing="false" onAction="#moveFromWelcomeWindow" prefHeight="54.0" prefWidth="160.0" text="Почати">
                <font>
                   <Font name="System Bold" size="32.0" />
                </font>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="allPanes" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="48.0" layoutY="142.0" prefHeight="56.0" prefWidth="509.0" promptText="Пошук" styleClass="search_bar">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Text layoutX="27.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введіть ПІП учня або його клас">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font>
+      </Text>
+      <Button fx:id="startbutton" alignment="CENTER" layoutX="207.0" layoutY="253.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="186.0" text="Шукати">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

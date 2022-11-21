@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="475.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@../css/main.css" BorderPane.alignment="CENTER">
+         <children>
+            <TableView AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <columns>
+                  <TableColumn fx:id="fullName" prefWidth="201.0" text="ПІП" />
+                  <TableColumn prefWidth="117.0" text="Дата народження" />
+                  <TableColumn fx:id="gradeClass" minWidth="1.0" prefWidth="59.0" text="Клас" />
+                  <TableColumn fx:id="phoneNumber" prefWidth="145.0" text="Номер телефону" />
+                  <TableColumn fx:id="teacherSubname" minWidth="5.0" prefWidth="152.0" text="Прізвище вчителя" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

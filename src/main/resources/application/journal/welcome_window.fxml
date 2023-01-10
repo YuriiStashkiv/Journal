@@ -9,28 +9,32 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="allPanes" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.journal.SceneController">
-   <children>
-      <Group layoutY="-1.0">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="allPanes" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.journal.WelcomeWindowActionsController">
+    <children>
+      <TextFlow layoutY="87.0" prefHeight="61.0" prefWidth="601.0" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="87.0">
          <children>
-            <Text layoutX="74.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ласкаво просимо!">
-               <font>
-                  <Font name="Arial Bold" size="50.0" />
-               </font>
-            </Text>
-            <Button fx:id="startbutton" alignment="CENTER" layoutX="220.0" layoutY="216.0" mnemonicParsing="false" onAction="#moveFromWelcomeWindow" prefHeight="54.0" prefWidth="160.0" text="Почати">
-               <font>
-                  <Font name="System Bold" size="32.0" />
-               </font>
-            </Button>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ласкаво просимо!">
+                    <font>
+                        <Font name="Arial Bold" size="50.0" />
+                    </font>
+                </Text>
          </children>
-      </Group>
-      <Group AnchorPane.bottomAnchor="-49.0" AnchorPane.leftAnchor="-86.0">
+      </TextFlow>
+      <FlowPane alignment="CENTER" layoutX="201.0" layoutY="214.0" prefHeight="87.0" prefWidth="200.0" AnchorPane.bottomAnchor="99.0" AnchorPane.leftAnchor="201.0" AnchorPane.rightAnchor="199.0">
          <children>
-            <Ellipse fill="#f2ffff" layoutX="107.0" layoutY="348.0" radiusX="93.0" radiusY="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-            <Ellipse fill="#e5feff" layoutX="151.0" layoutY="392.0" radiusX="101.0" radiusY="57.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" />
-            <Ellipse fill="#daf5f6" layoutX="14.0" layoutY="366.0" radiusX="100.0" radiusY="62.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                <Button fx:id="startbutton" alignment="CENTER" mnemonicParsing="false" onAction="#moveFromWelcomeWindow" prefHeight="54.0" prefWidth="160.0" text="Почати">
+                    <font>
+                        <Font name="System Bold" size="32.0" />
+                    </font>
+                </Button>
          </children>
-      </Group>
-   </children>
+      </FlowPane>
+        <Group AnchorPane.bottomAnchor="-49.0" AnchorPane.leftAnchor="-86.0">
+            <children>
+                <Ellipse fill="#f2ffff" layoutX="107.0" layoutY="348.0" radiusX="93.0" radiusY="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                <Ellipse fill="#e5feff" layoutX="151.0" layoutY="392.0" radiusX="101.0" radiusY="57.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" />
+                <Ellipse fill="#daf5f6" layoutX="14.0" layoutY="366.0" radiusX="100.0" radiusY="62.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            </children>
+        </Group>
+    </children>
 </AnchorPane>

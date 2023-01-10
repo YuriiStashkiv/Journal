@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="202.0" prefWidth="376.0" style="-fx-background-color: #44D3DC;" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.journal.WrongOKPage">
+   <children>
+      <Button fx:id="buttonWrongOk" layoutX="143.0" layoutY="137.0" mnemonicParsing="false" onAction="#closeWrongOKPage" prefHeight="30.0" prefWidth="111.0" text="OK" AnchorPane.leftAnchor="143.0" AnchorPane.rightAnchor="142.0" />
+      <Text layoutX="51.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Невірний логін або пароль!">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
